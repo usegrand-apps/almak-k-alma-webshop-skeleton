@@ -1,0 +1,628 @@
+{
+  "generator": "uiprompt",
+  "name": "Almakék — alma webshop",
+  "updatedAt": "2026-10-09T12:46:17.994Z",
+  "folders": [],
+  "frames": [
+    {
+      "frameId": "236a7c7b-e9ea-44b1-a66a-2f971240df39",
+      "name": "01 — Navigáció",
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 96,
+      "order": 0,
+      "blocks": [
+        {
+          "blockId": "2287a135-f14f-4891-9805-dbf8b7c0a248",
+          "title": "Almakék márkajel",
+          "summary": "",
+          "x": 120,
+          "y": 28,
+          "width": 200,
+          "height": 40,
+          "order": 0,
+          "children": []
+        },
+        {
+          "blockId": "48cf70a6-f983-49d8-816b-19c0917d4fc7",
+          "title": "Almáink",
+          "summary": "",
+          "x": 560,
+          "y": 24,
+          "width": 100,
+          "height": 48,
+          "order": 0,
+          "children": []
+        },
+        {
+          "blockId": "14ca65a0-39ea-491b-a59e-56317adf6303",
+          "title": "Válogatásdoboz",
+          "summary": "",
+          "x": 688,
+          "y": 24,
+          "width": 170,
+          "height": 48,
+          "order": 0,
+          "children": []
+        },
+        {
+          "blockId": "177e600a-0d6d-4f88-9bf7-080c5e06a989",
+          "title": "Kosár",
+          "summary": "",
+          "x": 1176,
+          "y": 24,
+          "width": 144,
+          "height": 48,
+          "order": 0,
+          "children": []
+        }
+      ]
+    },
+    {
+      "frameId": "aec104e4-4ad3-423e-98dc-42b591b683a5",
+      "name": "02 — Nyitó szekció",
+      "x": 0,
+      "y": 160,
+      "width": 1440,
+      "height": 660,
+      "order": 0,
+      "blocks": [
+        {
+          "blockId": "6113af2f-cc5f-4633-a6d0-52542d55a2da",
+          "title": "Bevezető",
+          "summary": "",
+          "x": 120,
+          "y": 80,
+          "width": 480,
+          "height": 24,
+          "order": 0,
+          "children": []
+        },
+        {
+          "blockId": "90490635-686f-419d-86c9-c3fcf704f721",
+          "title": "Főcím",
+          "summary": "",
+          "x": 120,
+          "y": 128,
+          "width": 570,
+          "height": 200,
+          "order": 0,
+          "children": []
+        },
+        {
+          "blockId": "cffceb05-27db-4d69-af0d-3c10ba8a151b",
+          "title": "Hero leírás",
+          "summary": "",
+          "x": 120,
+          "y": 360,
+          "width": 480,
+          "height": 64,
+          "order": 0,
+          "children": []
+        },
+        {
+          "blockId": "fbcc835a-fd2d-4dd8-9d9d-52d0b8d2de28",
+          "title": "Vásárlás CTA",
+          "summary": "",
+          "x": 120,
+          "y": 464,
+          "width": 224,
+          "height": 56,
+          "order": 0,
+          "children": []
+        },
+        {
+          "blockId": "e7307e59-54d2-437c-bae6-bcf95e75e356",
+          "title": "Hero almafotó",
+          "summary": "",
+          "x": 744,
+          "y": 48,
+          "width": 576,
+          "height": 560,
+          "order": 0,
+          "children": []
+        }
+      ]
+    },
+    {
+      "frameId": "a38c4ffd-9941-45d9-bfe1-58ea4b209b53",
+      "name": "03 — Almaválogatás",
+      "x": 0,
+      "y": 880,
+      "width": 1440,
+      "height": 770,
+      "order": 0,
+      "blocks": [
+        {
+          "blockId": "3d2ac442-a387-46c0-8a3a-5606a00097cb",
+          "title": "Választék cím",
+          "summary": "",
+          "x": 120,
+          "y": 56,
+          "width": 720,
+          "height": 56,
+          "order": 0,
+          "children": []
+        },
+        {
+          "blockId": "76b7dc3a-92ce-4898-9785-6e7ae308acc6",
+          "title": "Választék leírás",
+          "summary": "",
+          "x": 120,
+          "y": 128,
+          "width": 760,
+          "height": 32,
+          "order": 0,
+          "children": []
+        },
+        {
+          "blockId": "8a425ca0-8c8d-4f31-8e0f-61c345d258d5",
+          "title": "Íz szűrő",
+          "summary": "",
+          "x": 1040,
+          "y": 112,
+          "width": 280,
+          "height": 48,
+          "order": 0,
+          "children": []
+        },
+        {
+          "blockId": "30c2947e-bfb5-49fa-b48a-93b01a9ca69c",
+          "title": "Gala fotó",
+          "summary": "",
+          "x": 120,
+          "y": 208,
+          "width": 384,
+          "height": 272,
+          "order": 0,
+          "children": []
+        },
+        {
+          "blockId": "0c782f54-fdc8-487a-a56a-cace1993e819",
+          "title": "Gala név",
+          "summary": "",
+          "x": 120,
+          "y": 504,
+          "width": 384,
+          "height": 32,
+          "order": 0,
+          "children": []
+        },
+        {
+          "blockId": "252f4eab-6d06-4976-b171-d06aa72558dd",
+          "title": "Gala íz",
+          "summary": "",
+          "x": 120,
+          "y": 544,
+          "width": 384,
+          "height": 24,
+          "order": 0,
+          "children": []
+        },
+        {
+          "blockId": "6ee38b75-28c6-4abf-88db-a935c094347d",
+          "title": "Gala ár",
+          "summary": "",
+          "x": 120,
+          "y": 592,
+          "width": 384,
+          "height": 32,
+          "order": 0,
+          "children": []
+        },
+        {
+          "blockId": "e80619ee-1f00-42b9-9679-92638e622bd1",
+          "title": "Gala kosárgomb",
+          "summary": "",
+          "x": 120,
+          "y": 648,
+          "width": 384,
+          "height": 48,
+          "order": 0,
+          "children": []
+        },
+        {
+          "blockId": "98b8c025-6150-4c73-9c97-16cea083bf7b",
+          "title": "Granny Smith fotó",
+          "summary": "",
+          "x": 528,
+          "y": 208,
+          "width": 384,
+          "height": 272,
+          "order": 0,
+          "children": []
+        },
+        {
+          "blockId": "829ab949-ee38-4f8c-9925-42f8e0e0bb2e",
+          "title": "Granny Smith név",
+          "summary": "",
+          "x": 528,
+          "y": 504,
+          "width": 384,
+          "height": 32,
+          "order": 0,
+          "children": []
+        },
+        {
+          "blockId": "42838e3e-9979-4ad0-8ca2-849e6874e31a",
+          "title": "Granny Smith íz",
+          "summary": "",
+          "x": 528,
+          "y": 544,
+          "width": 384,
+          "height": 24,
+          "order": 0,
+          "children": []
+        },
+        {
+          "blockId": "cda9ff39-45f9-4175-b13c-e90f5d879f17",
+          "title": "Granny Smith ár",
+          "summary": "",
+          "x": 528,
+          "y": 592,
+          "width": 384,
+          "height": 32,
+          "order": 0,
+          "children": []
+        },
+        {
+          "blockId": "40d183da-46ec-4b83-a6a6-f8eea689a6c2",
+          "title": "Granny Smith kosárgomb",
+          "summary": "",
+          "x": 528,
+          "y": 648,
+          "width": 384,
+          "height": 48,
+          "order": 0,
+          "children": []
+        },
+        {
+          "blockId": "0d7b50b0-fd97-43f9-98f4-a6928d691978",
+          "title": "Golden Delicious fotó",
+          "summary": "",
+          "x": 936,
+          "y": 208,
+          "width": 384,
+          "height": 272,
+          "order": 0,
+          "children": []
+        },
+        {
+          "blockId": "7c5aeaa2-575c-4660-8c1e-18808aee6f24",
+          "title": "Golden Delicious név",
+          "summary": "",
+          "x": 936,
+          "y": 504,
+          "width": 384,
+          "height": 32,
+          "order": 0,
+          "children": []
+        },
+        {
+          "blockId": "17063ee7-d64e-425b-9497-0d547df30cb8",
+          "title": "Golden Delicious íz",
+          "summary": "",
+          "x": 936,
+          "y": 544,
+          "width": 384,
+          "height": 24,
+          "order": 0,
+          "children": []
+        },
+        {
+          "blockId": "1fdfea9e-56ea-4d61-870f-5b5c88ff472b",
+          "title": "Golden Delicious ár",
+          "summary": "",
+          "x": 936,
+          "y": 592,
+          "width": 384,
+          "height": 32,
+          "order": 0,
+          "children": []
+        },
+        {
+          "blockId": "b3b4358f-fd27-45cc-ac82-315a09bae757",
+          "title": "Golden Delicious kosárgomb",
+          "summary": "",
+          "x": 936,
+          "y": 648,
+          "width": 384,
+          "height": 48,
+          "order": 0,
+          "children": []
+        }
+      ]
+    },
+    {
+      "frameId": "c4d2c9de-c64b-421e-9c53-9cf812a9d617",
+      "name": "04 — Válogatásdoboz",
+      "x": 0,
+      "y": 1720,
+      "width": 1440,
+      "height": 460,
+      "order": 0,
+      "blocks": [
+        {
+          "blockId": "0e5fac9e-efde-47e8-a59d-8a9c2b2216c2",
+          "title": "Dobozfotó",
+          "summary": "",
+          "x": 120,
+          "y": 48,
+          "width": 544,
+          "height": 360,
+          "order": 0,
+          "children": []
+        },
+        {
+          "blockId": "9f5d31a9-7d54-4aac-90c0-2923a5a3490b",
+          "title": "Doboz felirat",
+          "summary": "",
+          "x": 744,
+          "y": 64,
+          "width": 500,
+          "height": 24,
+          "order": 0,
+          "children": []
+        },
+        {
+          "blockId": "a32e3c34-8cce-4278-b41e-e63ff4c0a140",
+          "title": "Doboz cím",
+          "summary": "",
+          "x": 744,
+          "y": 112,
+          "width": 560,
+          "height": 100,
+          "order": 0,
+          "children": []
+        },
+        {
+          "blockId": "26805177-90c7-4268-84b4-a952950a28ed",
+          "title": "Doboz leírás",
+          "summary": "",
+          "x": 744,
+          "y": 236,
+          "width": 560,
+          "height": 56,
+          "order": 0,
+          "children": []
+        },
+        {
+          "blockId": "2ae67ffd-a3a5-4c83-ba74-1f49efdcbb3c",
+          "title": "Doboz ár",
+          "summary": "",
+          "x": 744,
+          "y": 312,
+          "width": 180,
+          "height": 40,
+          "order": 0,
+          "children": []
+        },
+        {
+          "blockId": "526a9bc7-37e6-49d3-9ca9-1c503c44bd4f",
+          "title": "Doboz CTA",
+          "summary": "",
+          "x": 984,
+          "y": 308,
+          "width": 336,
+          "height": 48,
+          "order": 0,
+          "children": []
+        }
+      ]
+    },
+    {
+      "frameId": "383067db-7e28-4314-b0f1-1b9514070df0",
+      "name": "05 — Lábléc",
+      "x": 0,
+      "y": 2240,
+      "width": 1440,
+      "height": 240,
+      "order": 0,
+      "blocks": [
+        {
+          "blockId": "8d71319a-628f-4c26-b1f0-ff67339a171c",
+          "title": "Lábléc logó",
+          "summary": "",
+          "x": 120,
+          "y": 48,
+          "width": 240,
+          "height": 40,
+          "order": 0,
+          "children": []
+        },
+        {
+          "blockId": "4ee118a4-fe32-4448-af00-ae1fdea026fa",
+          "title": "Lábléc szlogen",
+          "summary": "",
+          "x": 120,
+          "y": 104,
+          "width": 620,
+          "height": 32,
+          "order": 0,
+          "children": []
+        },
+        {
+          "blockId": "2e00bbe4-1e13-4d8f-b9e3-55480e0aa187",
+          "title": "Vissza fel",
+          "summary": "",
+          "x": 1104,
+          "y": 48,
+          "width": 216,
+          "height": 48,
+          "order": 0,
+          "children": []
+        },
+        {
+          "blockId": "b9eb90b5-6e94-42ce-9fb6-3dce8cc3266f",
+          "title": "Koncepció jelzés",
+          "summary": "",
+          "x": 120,
+          "y": 184,
+          "width": 1000,
+          "height": 24,
+          "order": 0,
+          "children": []
+        }
+      ]
+    },
+    {
+      "frameId": "50ec0a62-eb4f-48ee-9b1c-c320070de1de",
+      "name": "06 — Kosárpanel",
+      "x": 0,
+      "y": 2540,
+      "width": 1440,
+      "height": 760,
+      "order": 0,
+      "blocks": [
+        {
+          "blockId": "f389a02f-9db8-4fcc-a568-af8eb9375d0a",
+          "title": "Kosár címsor",
+          "summary": "",
+          "x": 960,
+          "y": 40,
+          "width": 280,
+          "height": 48,
+          "order": 0,
+          "children": []
+        },
+        {
+          "blockId": "5414db05-471d-41cd-9957-786bed7bc5c3",
+          "title": "Kosár bezárás",
+          "summary": "",
+          "x": 1336,
+          "y": 40,
+          "width": 48,
+          "height": 48,
+          "order": 0,
+          "children": []
+        },
+        {
+          "blockId": "5b1eb542-a7f9-4000-88a6-bea34a53141e",
+          "title": "Kosártétel kép",
+          "summary": "",
+          "x": 960,
+          "y": 136,
+          "width": 88,
+          "height": 88,
+          "order": 0,
+          "children": []
+        },
+        {
+          "blockId": "2ae094d8-0b3a-46c4-acd5-e8ceedd289a9",
+          "title": "Kosártétel név",
+          "summary": "",
+          "x": 1072,
+          "y": 136,
+          "width": 260,
+          "height": 32,
+          "order": 0,
+          "children": []
+        },
+        {
+          "blockId": "f9795047-7e95-4ed6-89e5-e146298477a8",
+          "title": "Mennyiség",
+          "summary": "",
+          "x": 1072,
+          "y": 184,
+          "width": 160,
+          "height": 48,
+          "order": 0,
+          "children": []
+        },
+        {
+          "blockId": "83386aa3-1ca6-4222-964e-2e65e458b2db",
+          "title": "Tétel törlés",
+          "summary": "",
+          "x": 1248,
+          "y": 184,
+          "width": 136,
+          "height": 48,
+          "order": 0,
+          "children": []
+        },
+        {
+          "blockId": "f5035b82-49ef-4c2c-8538-b9c315cd9ebb",
+          "title": "Részösszeg cím",
+          "summary": "",
+          "x": 960,
+          "y": 520,
+          "width": 240,
+          "height": 32,
+          "order": 0,
+          "children": []
+        },
+        {
+          "blockId": "a2be6827-48fe-4e29-ae24-43dc88e63003",
+          "title": "Részösszeg érték",
+          "summary": "",
+          "x": 1224,
+          "y": 520,
+          "width": 160,
+          "height": 32,
+          "order": 0,
+          "children": []
+        },
+        {
+          "blockId": "28c2d917-55a8-4a1f-b72e-0d9d7151f8f1",
+          "title": "Szállítás megjegyzés",
+          "summary": "",
+          "x": 960,
+          "y": 568,
+          "width": 424,
+          "height": 48,
+          "order": 0,
+          "children": []
+        },
+        {
+          "blockId": "5e29e637-e7fe-4321-8178-186c01dc006d",
+          "title": "Pénztár gomb",
+          "summary": "",
+          "x": 960,
+          "y": 644,
+          "width": 424,
+          "height": 48,
+          "order": 0,
+          "children": []
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "connectionId": "6f8bc40c-cc91-4492-aa8f-c145198ad270",
+      "sourceFrameId": "236a7c7b-e9ea-44b1-a66a-2f971240df39",
+      "targetFrameId": "aec104e4-4ad3-423e-98dc-42b591b683a5"
+    },
+    {
+      "connectionId": "bec370bc-5789-4006-be51-c70c13629584",
+      "sourceFrameId": "aec104e4-4ad3-423e-98dc-42b591b683a5",
+      "targetFrameId": "a38c4ffd-9941-45d9-bfe1-58ea4b209b53"
+    },
+    {
+      "connectionId": "f1bc419b-68a0-4e68-bb0c-9d7e0e80fb28",
+      "sourceFrameId": "a38c4ffd-9941-45d9-bfe1-58ea4b209b53",
+      "targetFrameId": "c4d2c9de-c64b-421e-9c53-9cf812a9d617"
+    },
+    {
+      "connectionId": "a9c75e8d-f40c-473e-b560-2c25aab54868",
+      "sourceFrameId": "c4d2c9de-c64b-421e-9c53-9cf812a9d617",
+      "targetFrameId": "383067db-7e28-4314-b0f1-1b9514070df0"
+    },
+    {
+      "connectionId": "8a3ab60d-bfa7-43d7-a65a-05bd10245c64",
+      "sourceFrameId": "236a7c7b-e9ea-44b1-a66a-2f971240df39",
+      "targetFrameId": "50ec0a62-eb4f-48ee-9b1c-c320070de1de"
+    },
+    {
+      "connectionId": "2a85f6f7-76ab-483f-9e99-90fbcbec1362",
+      "sourceFrameId": "a38c4ffd-9941-45d9-bfe1-58ea4b209b53",
+      "targetFrameId": "50ec0a62-eb4f-48ee-9b1c-c320070de1de"
+    },
+    {
+      "connectionId": "608db8b0-792a-47db-ae37-9c1d98dbef5b",
+      "sourceFrameId": "c4d2c9de-c64b-421e-9c53-9cf812a9d617",
+      "targetFrameId": "50ec0a62-eb4f-48ee-9b1c-c320070de1de"
+    }
+  ]
+}
