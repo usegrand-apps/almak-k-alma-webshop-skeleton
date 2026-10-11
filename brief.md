@@ -5,9 +5,31 @@ Koncepció: Almakék, friss étkezési almák webshopja. Magyar nyelv, HUF. 1440
 </global_context>
 
 <design_tokens>
-Colors: background: #F7FAFF, surface: #FFFFFF, ice: #EAF2FF, primary: #245DE8, ink: #12284C, muted: #526581, border: #DCE5F2
-Spacing: unit: 8, section: 96, container: 1200
+Colors: background: #F7FAFF, border: #DCE5F2, ice: #EAF2FF, ink: #12284C, muted: #526581, primary: #245DE8, surface: #FFFFFF
+Spacing: container: 1200, section: 96, unit: 8
 </design_tokens>
+
+<frameworks>
+Next.js
+</frameworks>
+
+<styling>
+Tailwind CSS
+</styling>
+
+<component_library>
+shadcn/ui
+</component_library>
+
+<icons>
+Lucide
+</icons>
+
+<documentation_links>
+- next.js: https://nextjs.org/docs
+- tailwind css: https://tailwindcss.com/docs
+- shadcn/ui: https://ui.shadcn.com/docs
+</documentation_links>
 
 <system_instructions>
 Csak a specifikált szekciók és pontos magyar szövegek kerüljenek a felületre. Ne használj Apple elektronikai termékeket vagy Apple-logót: az alma gyümölcs. Nincsenek kitalált vélemények, értékelések, kedvezmények vagy tanúsítványok. Reszponzív: 768 px alatt egyoszlopos hero és terméklista, 20 px oldalmargó, minimum 44 px érintési célok, látható fókusz és reduced-motion támogatás. Termékképek természetes almák semleges világos háttéren; a képek beszerzendő assetek, ne találj ki URL-eket.
@@ -362,54 +384,54 @@ csak egyet?
   - **Exact Copy:** Kosarad
   - **Forbidden Patterns:** Nem specifikált szöveg, Hamis rendelési siker
   - **Layout Hint:** Jobbról nyíló 480 px széles fehér drawer sötétített háttér felett. Mobilon teljes szélesség. H2 28 px. Nem a lábléc alatti szekció; interakciós állapot.
-- **Kosár bezárás** [x: 1336, y: 40, order: 1]
+- **Kosár bezárás** [x: 1262, y: 40, order: 1]
   - **Type:** default
   - **Prompt:** Aria-label: Kosár bezárása. Escape bezár, fókuszcsapda, bezáráskor fókusz vissza a megnyitóra.
   - **Exact Copy:** ×
   - **Forbidden Patterns:** Nem specifikált szöveg, Hamis rendelési siker
   - **Layout Hint:** Aria-label: Kosár bezárása. Escape bezár, fókuszcsapda, bezáráskor fókusz vissza a megnyitóra.
-- **Kosártétel kép** [x: 960, y: 136, order: 2]
+- **Kosártétel kép** [x: 960, y: 112, order: 2]
   - **Type:** default
   - **Prompt:** Gala termékfotó ugyanaz mint a rácson; alt: Gala alma. Példa feltöltött állapot 1 kg Gala.
   - **Forbidden Patterns:** Nem specifikált szöveg, Hamis rendelési siker
   - **Layout Hint:** Gala termékfotó ugyanaz mint a rácson; alt: Gala alma. Példa feltöltött állapot 1 kg Gala.
-- **Kosártétel név** [x: 1072, y: 136, order: 3]
+- **Kosártétel név** [x: 1105, y: 112, order: 3]
   - **Type:** default
   - **Prompt:** 20 px semibold; tényleges kosárból dinamikus.
   - **Exact Copy:** Gala
   - **Forbidden Patterns:** Nem specifikált szöveg, Hamis rendelési siker
   - **Layout Hint:** 20 px semibold; tényleges kosárból dinamikus.
-- **Mennyiség** [x: 1072, y: 184, order: 4]
+- **Mennyiség** [x: 1105, y: 160, order: 4]
   - **Type:** default
   - **Prompt:** Léptethető mennyiség: mínusz, érték, plusz; egyenként 44 px cél. Terméknél 1 kg lépés; doboznál 1 doboz. Minimum 1, külön eltávolítással.
   - **Exact Copy:** 1 kg
   - **Forbidden Patterns:** Nem specifikált szöveg, Hamis rendelési siker
   - **Layout Hint:** Léptethető mennyiség: mínusz, érték, plusz; egyenként 44 px cél. Terméknél 1 kg lépés; doboznál 1 doboz. Minimum 1, külön eltávolítással.
-- **Tétel törlés** [x: 1248, y: 184, order: 5]
+- **Tétel törlés** [x: 1263, y: 160, order: 5]
   - **Type:** default
   - **Prompt:** Tétel eltávolítása. Üres kosárban terméksorok és összeg helyett: A kosarad még üres. CTA: Almák böngészése.
   - **Exact Copy:** Eltávolítás
   - **Forbidden Patterns:** Nem specifikált szöveg, Hamis rendelési siker
   - **Layout Hint:** Tétel eltávolítása. Üres kosárban terméksorok és összeg helyett: A kosarad még üres. CTA: Almák böngészése.
-- **Részösszeg cím** [x: 960, y: 520, order: 6]
+- **Részösszeg cím** [x: 960, y: 232, order: 6]
   - **Type:** default
   - **Prompt:** A kosár aljához rögzített összegblokk.
   - **Exact Copy:** Részösszeg
   - **Forbidden Patterns:** Nem specifikált szöveg, Hamis rendelési siker
   - **Layout Hint:** A kosár aljához rögzített összegblokk.
-- **Részösszeg érték** [x: 1224, y: 520, order: 7]
+- **Részösszeg érték** [x: 1220, y: 232, order: 7]
   - **Type:** default
   - **Prompt:** Dinamikus összeg, jobbra igazítva, 24 px semibold.
   - **Exact Copy:** 890 Ft
   - **Forbidden Patterns:** Nem specifikált szöveg, Hamis rendelési siker
   - **Layout Hint:** Dinamikus összeg, jobbra igazítva, 24 px semibold.
-- **Szállítás megjegyzés** [x: 960, y: 568, order: 8]
+- **Szállítás megjegyzés** [x: 960, y: 288, order: 8]
   - **Type:** default
   - **Prompt:** 14/22 px.
   - **Exact Copy:** A szállítás díja a pénztárnál számítódik.
   - **Forbidden Patterns:** Nem specifikált szöveg, Hamis rendelési siker
   - **Layout Hint:** 14/22 px.
-- **Pénztár gomb** [x: 960, y: 644, order: 9]
+- **Pénztár gomb** [x: 960, y: 360, order: 9]
   - **Type:** default
   - **Prompt:** Kék elsődleges gomb. Designkoncepció: checkout integráció még nincs; prototípusban kattintásra információ: Ez egy bemutató, rendelést még nem adhatsz le. Nincs fizetés vagy hamis sikerállapot.
   - **Exact Copy:** Tovább a pénztárhoz
